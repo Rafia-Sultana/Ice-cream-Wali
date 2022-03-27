@@ -17,6 +17,10 @@ const Shop = () => {
         let selected = [...selectedIceCream, iceCream];
         setSelectedIceCream(selected);
     }
+    const clear = () => {
+        let clearItem = [];
+        setSelectedIceCream(clearItem);
+    }
 
 
     return (
@@ -32,6 +36,7 @@ const Shop = () => {
             </div>
             <div className="cardContainer">
                 <Card
+                    clear={clear}
                     selectedIceCream={selectedIceCream}>
 
                 </Card>

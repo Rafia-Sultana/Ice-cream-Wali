@@ -5,10 +5,14 @@
     top:33vh;
 }
 .itemList img{
-width:60px;
-height:60px;
+width:50px;
+height:50px;
 border-radius: 30px;
+margin-right: 10px;
 }
-.itemList li{
-    list-style: none;
+.itemStyle{
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+
 }
