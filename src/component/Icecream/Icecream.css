@@ -1,0 +1,35 @@
+.iceCard{
+    height: 490px;
+    width: 300px;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.iceCard img{
+    height: 265px;
+    width:285px ;
+    padding: 12px;
+}
+.iceDetails{
+    padding: 12px;
+
+}
+.iceName{
+    font-size: 20px;
+    font-weight: 600;
+}
+.iceBtn{
+    width: 100%;
+    background-color: rgb(86, 138, 141);
+    color: aliceblue;
+    height: 45px;
+    position: absolute;
+    bottom:0;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.iceBtn:hover{
+    background-color: rgb(68, 111, 114);
+}

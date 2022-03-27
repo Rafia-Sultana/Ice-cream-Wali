@@ -1,20 +1,37 @@
 import React, { useEffect, useState } from 'react';
+import Card from '../../Card/Card';
+import Icecream from '../../Icecream/Icecream';
 import './Shop.css'
 
 const Shop = () => {
     const [iceCream, setIceCreamList] = useState([]);
+    const [selectedIceCream, setSelectedIceCream] = useState([]);
     useEffect(() => {
         fetch('product.json')
             .then(res => res.json())
             .then(data => setIceCreamList(data))
     }, [])
+
+
+    const addedHandler = (iceCream) => {
+        let selected = [...selectedIceCream, iceCream];
+        setSelectedIceCream(selected);
+    }
+    console.log(selectedIceCream)
+
     return (
         <div className='shopContainer'>
             <div className="iceCreamContainer">
-                <h1>Ice-Cream</h1>
+                {
+                    iceCream.map(iceCream => <Icecream
+                        iceCream={iceCream}
+                        addedHandler={addedHandler}
+                        key={iceCream.id}
+                    ></Icecream>)
+                }
             </div>
             <div className="cardContainer">
-                <h2>Card Container</h2>
+                <Card></Card>
             </div>
         </div>
     );

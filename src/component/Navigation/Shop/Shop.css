@@ -4,3 +4,10 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.iceCreamContainer{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
