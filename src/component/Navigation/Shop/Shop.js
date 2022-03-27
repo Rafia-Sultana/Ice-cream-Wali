@@ -17,7 +17,7 @@ const Shop = () => {
         let selected = [...selectedIceCream, iceCream];
         setSelectedIceCream(selected);
     }
-    console.log(selectedIceCream)
+
 
     return (
         <div className='shopContainer'>
@@ -31,7 +31,10 @@ const Shop = () => {
                 }
             </div>
             <div className="cardContainer">
-                <Card></Card>
+                <Card
+                    selectedIceCream={selectedIceCream}>
+
+                </Card>
             </div>
         </div>
     );

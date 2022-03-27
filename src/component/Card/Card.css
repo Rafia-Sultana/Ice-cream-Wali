@@ -1,0 +1,14 @@
+.cardContainer2{
+    position: sticky;
+    border-radius: 8px;
+    border: 2px solid rgb(86, 138, 141);
+    top:33vh;
+}
+.itemList img{
+width:60px;
+height:60px;
+border-radius: 30px;
+}
+.itemList li{
+    list-style: none;
+}
