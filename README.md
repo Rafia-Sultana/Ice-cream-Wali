@@ -1,6 +1,6 @@
 # Ice Cream Wali 
 
-My  projects LiveLink [Ice Cream Wali](https://github.com/facebook/create-react-app).
+My  projects LiveLink [Ice Cream Wali](https://startling-faun-f50c82.netlify.app/).
 
 
 
