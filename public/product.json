@@ -1,0 +1,123 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead12",
+        "name": "Almond Joy",
+        "price": 400,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://www.innit.com/public/products/images/00077567274588-Pb41zi8TOff3Aoo4-en-US-0_s500.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead65",
+        "name": "Black Respaberry",
+        "price": 320,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://www.giffordsicecream.com/wp-content/uploads/2014/05/BRFY-1000px-lrg.png",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadef",
+        "name": "Pollar",
+        "price": 380,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://www.polarbd.com/images/featured-products/5.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadpo",
+        "name": "Dairy Milk",
+        "price": 590,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://i.pinimg.com/originals/ce/35/a3/ce35a3d4a8cb86cdd49a0deafd74b750.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadrf",
+        "name": "Amul",
+        "price": 690,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://www.bigbasket.com/media/uploads/p/l/40012979_2-amul-ice-cream-choco-caramel.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadty",
+        "name": "Round Ice-cream",
+        "price": 850,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://s3-eu-west-1.amazonaws.com/yi-files/content/2017/06/5996c1e05bb97.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eaduj",
+        "name": "Ebta",
+        "price": 347,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://www.designerpeople.com/wp-content/uploads/2019/04/ice-cream-box-packaging-design-3.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadwq",
+        "name": "Lemon Ice-box",
+        "price": 100,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://cutpcdnwimages.azureedge.net/images/products/825000/826069-600x600-A.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadyg",
+        "name": "Spirits",
+        "price": 510,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://cdn.trendhunterstatic.com/phpthumbnails/367/367072/367072_1_468.jpeg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadrd",
+        "name": "Ferreri Rocher",
+        "price": 950,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://static.mothership.sg/1/2021/03/ferrero-rochor-normal.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eadsx",
+        "name": "Dadu Ice cream",
+        "price": 740,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://bandifoods.com/wp-content/uploads/Dadu-Chocolate-Ice-Cream-4x-Box-340.jpg",
+        "shipping": 1,
+        "quantity": 0
+    }
+]
