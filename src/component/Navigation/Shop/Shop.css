@@ -11,3 +11,13 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
 }
+@media screen and (max-width:600px){
+    .iceCreamContainer{
+        grid-template-columns: 1fr;
+        align-self: center;
+    }
+    .shopContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

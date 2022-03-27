@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaCartPlus } from 'react-icons/fa';
 import './Icecream.css'
 
 const Icecream = ({ iceCream, addedHandler }) => {
@@ -9,7 +10,7 @@ const Icecream = ({ iceCream, addedHandler }) => {
                 <p className='iceName'>Name:{iceCream.name}</p>
                 <p>Price:{iceCream.price}</p>
             </div>
-            <button className='iceBtn' onClick={() => addedHandler(iceCream)}>Add to Cart</button>
+            <button className='iceBtn' onClick={() => addedHandler(iceCream)}>Add to Cart <FaCartPlus></FaCartPlus></button>
 
 
         </div>

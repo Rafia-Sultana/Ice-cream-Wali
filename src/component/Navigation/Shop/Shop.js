@@ -1,4 +1,7 @@
+
 import React, { useEffect, useState } from 'react';
+
+
 import Card from '../../Card/Card';
 import Icecream from '../../Icecream/Icecream';
 import './Shop.css'
@@ -14,13 +17,21 @@ const Shop = () => {
 
 
     const addedHandler = (iceCream) => {
-        let selected = [...selectedIceCream, iceCream];
-        setSelectedIceCream(selected);
+        let verifyItem = selectedIceCream.find(item => item.id == iceCream.id);
+        if (verifyItem) {
+            alert(' This item is already added');
+        }
+        else {
+            let selected = [...selectedIceCream, iceCream];
+            setSelectedIceCream(selected);
+        }
+
     }
     const clear = () => {
         let clearItem = [];
         setSelectedIceCream(clearItem);
     }
+
 
 
     return (
@@ -37,6 +48,7 @@ const Shop = () => {
             <div className="cardContainer">
                 <Card
                     clear={clear}
+
                     selectedIceCream={selectedIceCream}>
 
                 </Card>
